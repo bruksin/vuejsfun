@@ -1,12 +1,12 @@
 import express from 'express'
 import bodyParser from 'body-parser'
 import path from 'path'
-import history from 'connect-history-api-fallback'
+// import history from 'connect-history-api-fallback'
 
 const port = process.env.PORT || 5000
 const app = express()
   
-app.use(history())
+// app.use(history())
 app.use(bodyParser.json())
 app.use('/dist', express.static('dist'))
 
