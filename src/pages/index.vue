@@ -14,5 +14,5 @@
 
 
 <style lang="stylus" scoped>
-@import '../assets/style/index'
+@import '../assets/style/index';
 </style>

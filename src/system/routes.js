@@ -7,10 +7,10 @@ import auth from '../pages/auth.vue'
 
 
 export const routes = [
-    {path: '/', component: index},
-    {path: '/vuejs', component: vuejs},
-    {path: '/js', component: js},
-    {path: '/cpp', component: cpp},
-    {path: '/linux', component: linux},
-    {path: '/auth', component: auth}
+    { path: '/', component: index },
+    { path: '/vuejs', component: vuejs },
+    { path: '/js', component: js },
+    { path: '/cpp', component: cpp },
+    { path: '/linux', component: linux },
+    { path: '/auth', component: auth }
 ]

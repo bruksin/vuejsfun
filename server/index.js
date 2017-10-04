@@ -3,7 +3,7 @@ import bodyParser from 'body-parser'
 import path from 'path'
 // import history from 'connect-history-api-fallback'
 
-const port = process.env.PORT || 5000
+const port = process.env.PORT || 8080
 const app = express()
   
 // app.use(history())

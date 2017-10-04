@@ -9,8 +9,8 @@
   },
   "scripts": {
     "heroku-postbuild": "npm run build",
-    "dev": "cross-env NODE_ENV=development PORT=5000 nodemon --config nodemon.json --watch server --exec babel-node server/index.js",
-    "start": "PORT=5000 & babel-node server/index.js",
+    "dev": "cross-env NODE_ENV=development PORT=8080 nodemon --config nodemon.json --watch server --exec babel-node server/index.js",
+    "start": "PORT=8080 & babel-node server/index.js",
     "build": "webpack --progress --hide-modules"
   },
   "dependencies": {
